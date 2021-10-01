@@ -15,6 +15,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #FEFBF3;
+}
+
+.navbar {
+  background-color: #FEFBF3;
 }
 
 .footer {
@@ -111,6 +116,15 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.Col div   {
+  text-align: center;
+}
+
+.Col h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 70px;
 }
 
 @media (max-width: 600px) {
