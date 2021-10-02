@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '../styles/Home.module.css'
 import MainNavbar from '../components/MainNavbar'
@@ -23,21 +22,23 @@ export default function Home() {
                 <p>I am a Computer Science student and also a Full Stack Developer.</p>
               </Col>
               <Col xm={12} lg={4} className={styles.Col}>
-                  <div id="card" className="shadow-lg  mb-5 rounded">
-                    <Image className="rounded-3 w-auto" src="/profile-photo.jpg" alt="profile photo adrian portales"  width={300} height={300} /> 
+                  <div className="rounded">
+                    <img className="shadow-lg  mb-5 rounded-3 w-auto" src="/profile-photo.jpg" alt="profile photo adrian portales"  width={300} height={300} /> 
                 </div>
               </Col>
             </Row>
           </Container>
 
-          <Container>
+          <div  className={"shadow-lg  mb-4 rounded-3 w-5 " + styles.footer} >
+            <Container fluid  >
             <Row>
-              <Col >
+              <Col>
                 <h2>Have an exciting project where you need some help?</h2> 
                 <p> Send me over a message, and let&apos;s chat.</p>
               </Col>
             </Row>
           </Container>
+          </div>
         </main>
 
       </div>
