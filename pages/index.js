@@ -18,7 +18,7 @@ export default function Home() {
         <main className={styles.main}>
           <Container fluid>
             <Row className={styles.mainRow}>
-              <Col  xs={12} lg={7} className={"mb-3", styles.col}>
+              <Col  xs={12} lg={7} className={styles.Col}>
                 <h1 >Hi, I&apos;m Adrian</h1>
                 <p>I am a Computer Science student and also a Full Stack Developer.</p>
               </Col>
